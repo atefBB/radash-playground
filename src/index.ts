@@ -1,22 +1,22 @@
 import _ from "radash";
 
-const fish = [
+const fishs = [
   {
     name: "Marlin",
     source: "ocean",
-    weight: 105
+    weight: 105,
   },
   {
     name: "Bass",
     source: "lake",
-    weight: 16
-  }
+    weight: 16,
+  },
 ];
 
-const fishes = _.objectify(
-  fish,
-  (f) => f.name.toUpperCase(),
+const newFishes = _.objectify(
+  fishs,
+  (f) => f.name.toLowerCase(),
   (f) => _.pick(f, ["source", "weight"])
 );
 
-console.log(fishes);
+console.log(newFishes);
