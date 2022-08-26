@@ -8,12 +8,12 @@
     "start": "ts-node src/index.ts -1"
   },
   "dependencies": {
-    "@types/node": "10.12.18",
-    "radash": "1.14.2",
-    "ts-node": "8.0.1",
-    "typescript": "3.2.4"
+    "radash": "1.14.2"
   },
   "devDependencies": {
+    "ts-node": "8.0.1",
+    "@types/node": "10.12.18",
+    "typescript": "3.2.4",
     "nodemon": "1.18.4"
   },
   "keywords": []
